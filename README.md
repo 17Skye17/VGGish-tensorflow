@@ -3,7 +3,11 @@
 
 This is an easy-to-use tensorflow version for VGGish.
 
-VGGish is a VGG-like audio classification model that pretrained on a large YouTube Dataset.
+VGGish is a **VGG-like** audio classification model that pretrained on a large YouTube Dataset.
+
+The official tensorflow version for VGGish model only provides a demo for inferencing a single sample, while this repo provides a **batch** processing version which is much **easier** and **faster** than original repo.
+
+Are you ready to extract your own audio features from original videos? Let's have a try! :)
 
 ## Features
 - extract audio wav files from video files.
@@ -11,18 +15,25 @@ VGGish is a VGG-like audio classification model that pretrained on a large YouTu
 
 ## Preparation
 ### Packages
-ffmpeg
-tqdm
-scipy
-h5py
-numpy
-tensorflow
+```shell
+pip install \
+ffmpeg \
+tqdm \
+scipy \
+h5py \
+numpy \
+tensorflow \
 tensorpack
+```
 
 ### Downloads
-pretrained VGGish checkpoint: https://storage.googleapis.com/audioset/vggish_model.ckpt
-Code: git clone
+Pretrained VGGish checkpoint: 
+https://storage.googleapis.com/audioset/vggish_model.ckpt
 
+Code: 
+```shell
+git clone https://github.com/17Skye17/VGGish-tensorflow.git
+```
 ## Usage
 ### 1.Split Video Files
 ```shell
@@ -81,3 +92,5 @@ Add PCA and Quantization Module
 
 ## Ref
 https://github.com/tensorflow/models/tree/master/research/audioset
+
+Issues or improvments are welcome, please inform me at skyezx2018@gmail.com if you find any bug. :)
