@@ -93,4 +93,8 @@ Add PCA and Quantization Module
 ## Ref
 https://github.com/tensorflow/models/tree/master/research/audioset
 
-Issues or improvments are welcome, please inform me at skyezx2018@gmail.com if you find any bug. :)
+Issues or improvments are welcome, please inform me at skyezx2018@gmail.com if you find any bug.
+
+Update: 06/17/2019
+
+Skye
