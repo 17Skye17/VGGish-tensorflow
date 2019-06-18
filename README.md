@@ -1,4 +1,4 @@
-# Easy-to-user VGGish Tensorflow
+# Easy-to-use VGGish Tensorflow
 ## Introduction
 
 This is an easy-to-use tensorflow version for VGGish.
