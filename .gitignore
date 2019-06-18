@@ -1,5 +1,6 @@
 models/
 ckpts/
+vggish/waste/
 concate_features.py
 concate_features.sh
 gen_hdf5.py
